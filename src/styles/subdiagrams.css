@@ -1,0 +1,271 @@
+/* ============================================================================
+   SUBDIAGRAM STYLES 
+   ============================================================================
+/*
+   BASIS-STILE FÜR ALLE SUBDIAGRAMM-EBENEN
+ */
+
+/* Gemeinsame Basisstile für alle Diagrammknotenebenen */
+[class*="-root"],
+[class*="-cat"],
+[class*="-group"],
+[class*="-leaf"] {
+  font-weight: bold;
+  transition: box-shadow 0.15s, background 0.15s, border-color 0.15s;
+}
+
+/* Root-Ebene Knoten (größte, oben in der Hierarchie) */
+[class*="-root"] {
+  font-size: 1.5rem;
+  border-radius: 16px;
+  padding: 8px 20px;
+}
+
+/* Kategorie-Ebene Knoten */
+[class*="-cat"] {
+  font-size: 1.2rem;
+  border-radius: 14px;
+  padding: 7px 18px;
+}
+
+/* Gruppen-Ebene Knoten */
+[class*="-group"] {
+  font-size: 1.2rem;
+  border-radius: 12px;
+  padding: 6px 16px;
+}
+
+/* Blatt-Ebene Knoten (kleinste, unten in der Hierarchie) */
+[class*="-leaf"] {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 5px 14px;
+}
+
+/* Hover-Effekte - verwendet CSS-Variablen aus spezifischen Diagrammdefinitionen */
+[class*="-root"]:hover,
+[class*="-cat"]:hover,
+[class*="-group"]:hover,
+[class*="-leaf"]:hover {
+  background: var(--hover-bg);
+  border-color: var(--hover-border);
+  color: var(--hover-text);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  filter: brightness(1.04);
+}
+
+/* Ausgewählter Zustand - verwendet CSS-Variablen aus spezifischen Diagrammdefinitionen */
+[class*="-root"].selected,
+[class*="-cat"].selected,
+[class*="-group"].selected,
+[class*="-leaf"].selected {
+  border-color: var(--selected-border);
+  box-shadow: 0 0 0 2px var(--selected-border), 
+              0 4px 6px -1px rgba(0, 0, 0, 0.15), 
+              0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================================================
+   FARBEN FÜR SUBDIAGRAMME
+   ============================================================================ */
+
+/* ============================================================================
+   XDUCTS (Xdukte)
+   ============================================================================ */
+
+.xducts-root {
+  --hover-bg: #d9f99d;
+  --hover-border: #bef264;
+  --hover-text: rgb(77, 91, 18);
+  --selected-border: #84cc16;
+  
+  color: #4d7c0f;
+  background: #f7fee7;
+}
+
+.xducts-cat {
+  --hover-bg: #d9f99d;
+  --hover-border: #bef264;
+  --hover-text: rgb(77, 91, 18);
+  --selected-border: #84cc16;
+  
+  color: #3f6212;
+  background: #ecfccb;
+  border-color: #d9f99d;
+}
+
+.xducts-group {
+  --hover-bg: #d9f99d;
+  --hover-border: #bef264;
+  --hover-text: rgb(77, 91, 18);
+  --selected-border: #84cc16;
+  
+  color: #4d7c0f;
+  background: #f7fee7;
+  border-color: #d9f99d;
+}
+
+.xducts-leaf {
+  --hover-bg: #d9f99d;
+  --hover-border: #bef264;
+  --hover-text: rgb(77, 91, 18);
+  --selected-border: #84cc16;
+  
+  color: #365314;
+  background: #fefce8;
+  border-color: #ecfccb;
+}
+
+/* ============================================================================
+   PROCESS CHAINS (Prozessketten)
+   ============================================================================ */
+
+.processChains-root {
+  --hover-bg: #c7d2fe;
+  --hover-border: #a5b4fc;
+  --hover-text: rgb(56, 34, 155);
+  --selected-border: #818cf8;
+  
+  color: #3730a3;
+  background: #e0e7ff;
+}
+
+.processChains-cat {
+  --hover-bg: #c7d2fe;
+  --hover-border: #a5b4fc;
+  --hover-text: rgb(56, 34, 155);
+  --selected-border: #818cf8;
+  
+  color: #4d46a5;
+  background: #eaedfa;
+}
+
+.processChains-group {
+  --hover-bg: #c7d2fe;
+  --hover-border: #a5b4fc;
+  --hover-text: rgb(56, 34, 155);
+  --selected-border: #818cf8;
+  
+  color: #5b5bc7;
+  background: #efeffc;
+  border-color: #e8e8ff;
+}
+
+.processChains-leaf {
+  --hover-bg: #c7d2fe;
+  --hover-border: #a5b4fc;
+  --hover-text: rgb(56, 34, 155);
+  --selected-border: #818cf8;
+  
+  color: #6b6bd1;
+  background: #efeffc;
+  border-color: #ededff;
+  padding: 5px 20px; /* Override default leaf padding */
+}
+
+/* ============================================================================
+   CONVERSION PROCEDURES (Konversionsverfahren)
+   ============================================================================ */
+
+.conversionProcedures-root {
+  --hover-bg: #bae6fd;
+  --hover-border: #7dd3fc;
+  --hover-text: #0c4a6e;
+  --selected-border: #38bdf8;
+  
+  color: #075985;
+  background: #daeefd;
+  border-color: #7dd3fc;
+}
+
+.conversionProcedures-cat {
+  --hover-bg: #bae6fd;
+  --hover-border: #7dd3fc;
+  --hover-text: #0c4a6e;
+  --selected-border: #38bdf8;
+  
+  color: #0c4a6e;
+  background: #e0f2fe;
+  border-color: #bae6fd;
+}
+
+.conversionProcedures-group {
+  --hover-bg: #bae6fd;
+  --hover-border: #7dd3fc;
+  --hover-text: #0c4a6e;
+  --selected-border: #38bdf8;
+  
+  color: #075985;
+  background: #eaf3f8;
+  border-color: #e0f2fe;
+}
+
+/* ============================================================================
+   SUPPLY TASKS (Versorgungsaufgaben)
+   ============================================================================ */
+
+.supplyTasks-root {
+  --hover-bg: #fde68a;
+  --hover-border: #fcd34d;
+  --hover-text: rgb(120, 53, 15);
+  --selected-border: #f59e0b;
+  
+  color: #92400e;
+  background: #fef3c7;
+}
+
+.supplyTasks-cat {
+  --hover-bg: #fde68a;
+  --hover-border: #fcd34d;
+  --hover-text: rgb(120, 53, 15);
+  --selected-border: #f59e0b;
+  
+  color: #78350f;
+  background: #fef9e7;
+}
+
+.supplyTasks-group {
+  --hover-bg: #fde68a;
+  --hover-border: #fcd34d;
+  --hover-text: rgb(120, 53, 15);
+  --selected-border: #f59e0b;
+  
+  color: #a16207;
+  background: #fffbf0;
+  border-color: #fef3c7;
+}
+
+/* ============================================================================
+   SUPPLY CONCEPTS (Versorgungskonzepte)
+   ============================================================================ */
+
+.supplyConcepts-root {
+  --hover-bg: #a7f3d0;
+  --hover-border: #6ee7b7;
+  --hover-text: rgb(6, 95, 70);
+  --selected-border: #10b981;
+  
+  color: #065f46;
+  background: #d1fae5;
+}
+
+.supplyConcepts-cat {
+  --hover-bg: #a7f3d0;
+  --hover-border: #6ee7b7;
+  --hover-text: rgb(6, 95, 70);
+  --selected-border: #10b981;
+  
+  color: #047857;
+  background: #ecfdf5;
+}
+
+.supplyConcepts-group {
+  --hover-bg: #a7f3d0;
+  --hover-border: #6ee7b7;
+  --hover-text: rgb(6, 95, 70);
+  --selected-border: #10b981;
+  
+  color: #059669;
+  background: #f7fefa;
+  border-color: #d1fae5;
+}

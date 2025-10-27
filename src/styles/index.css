@@ -1,0 +1,365 @@
+:root {
+  /* ===============================================
+   * DBFZ CORPORATE DESIGN FARBPALETTE
+   * ===============================================
+   */
+
+  /* == 1. PRIMÄRFARBEN (HAUSFARBEN) == */
+  --dbfz-gruen: #97b513;
+  --dbfz-grau: #838383;
+  --dbfz-weiss: #FFFFFF;
+  --dbfz-schwarz: #000000;
+
+  /* == 2. ABSTUFUNGEN (RASTER) == */
+  /* Grün-Abstufungen */
+  --dbfz-gruen-70: #bad36c;
+  --dbfz-gruen-50: #cfe09b;
+  --dbfz-gruen-30: #e3edc5;
+
+  /* Grau-Abstufung */
+  --dbfz-grau-50: #babebe;
+  --dbfz-grau-dunkel: #4A4A4A;
+  --dbfz-grau-light: #F7F9FA;
+
+  /* Dunklere Grün-Töne */
+  --dbfz-gruen-dunkel-1: #688816;
+  --dbfz-gruen-dunkel-2: #3f570a;
+
+  /* == 3. SEKUNDÄRFARBEN == */
+  --dbfz-akzent-blau-dunkel: #00616f;
+  --dbfz-akzent-blau-hell: #70a9b3;
+  --dbfz-akzent-cyan: #01b3c4;
+  --dbfz-akzent-cyan-hell: #aadae3;
+  --dbfz-akzent-tuerkis: #00a182;
+  --dbfz-akzent-tuerkis-hell: #98d0c1;
+
+  /* ===============================================
+   * MAPPING FÜR ANWENDUNGSFARBEN
+   * ===============================================
+   */
+  
+  /* Primärfarben für UI-Elemente */
+  --primary-color: var(--dbfz-gruen-dunkel-1);
+  --primary-hover: var(--dbfz-gruen-70);
+  --primary-dark-active: var(--dbfz-gruen-dunkel-2);
+  
+  /* Textfarben */
+  --text-color: var(--dbfz-gruen-dunkel-2);
+  
+  /* Hintergrundfarben */
+  --background-color: var(--dbfz-weiss);
+  --box-background: var(--dbfz-gruen-30);
+  
+  /* Link-Farben */
+  --link-color: var(--dbfz-gruen);
+  --link-hover-color: var(--dbfz-gruen-dunkel-1);
+  
+  /* Header/Footer */
+  --header-text-hover: var(--dbfz-gruen-dunkel-1);
+  --footer-link-color: rgba(255, 255, 255, 0.9);
+
+  /* Typografie */
+  --bulma-family-primary: 'Roboto';
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.title {
+  color: var(--primary-color);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  font-weight: 500;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px solid var(--primary-hover);
+}
+
+
+/* Header styles */
+/* Navbar Logo Container */
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  min-width: auto;
+}
+
+/* Navbar Logo */
+.navbar-logo {
+  width: auto;
+  height: 70px;
+  max-height: 80px;
+  min-height: 80px;
+  border-radius: 50px;
+  object-fit: contain;
+}
+
+/* Navbar Title */
+.navbar-title {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* Navbar Spacer */
+.navbar-spacer {
+  padding-top: 3.25rem;
+}
+
+/* Language Buttons */
+.button.lang-button {
+  background-color: var(--primary-hover);
+  color: rgb(250, 245, 245);
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease;
+}
+
+.button.lang-button:hover {
+  color: var(--header-text-hover);
+}
+.button.lang-button.is-active-lang {
+  background-color: var(--primary-dark-active); 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+
+
+.navbar-item {
+  color: var(--link-color) !important;
+}
+
+
+.navbar-item.is-active {
+  color: var(--header-text-hover) !important; 
+  font-weight: bold;
+}
+
+.navbar-item:hover,
+.navbar-title:hover {
+  color: var(--header-text-hover) !important;
+}
+
+
+/* Hamburger Menu */
+
+/* Burger Menu Linien */
+.navbar-burger span {
+  background-color: var(--text-color) !important;
+  height: 2px;
+  transition: all 0.3s ease;
+}
+
+.navbar-burger:hover span {
+  background-color: var(--header-text-hover) !important;
+}
+
+.navbar-burger.is-active span {
+  background-color: var(--header-text-hover) !important;
+}
+
+
+/* Animierte Burger Menu */
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/* Responsive Design */
+
+/* Responsive typography */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* Responsive Menü */
+@media screen and (max-width: 1023px) {
+
+  .navbar-menu {
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: none !important;
+  }
+
+  .navbar-menu.is-active {
+    display: block !important;
+    animation: slideDown 0.3s ease-out;
+  }
+
+  .navbar-item {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eee;
+
+  }
+
+  .field.has-addons {
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+
+}
+
+/*Main Content */
+.main-content-area {
+  flex-grow: 1;
+}
+
+.box {
+  background-color: var(--dbfz-grau-light);
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(151, 181, 19, 0.534);
+}
+
+.presentation-list {
+  list-style-position: inside !important;
+}
+
+.main-content-area .box {
+  color: var(--dbfz-grau-dunkel); 
+}
+
+.loading-indicator {
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Full page loading container */
+.loading-fullpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.6) 20%, rgba(255,255,255,0) 60%),
+    repeating-linear-gradient(45deg, rgba(0,0,0,0.02) 0 1px, transparent 1px 8px),
+    linear-gradient(to bottom, rgba(255,255,255,0.02) 0%, var(--dbfz-gruen-30) 100%);
+  background-blend-mode: normal, overlay;
+  padding: 3rem 1.5rem;
+  color: var(--dbfz-schwarz);
+  border-top: 1px solid rgba(0,0,0,0.04);
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Footer Styles */
+.app-footer {
+  background-color: var(--dbfz-grau);
+  padding: 3rem 1.5rem 3rem;
+  color: var(--dbfz-weiss);
+}
+
+.app-footer .footer-title {
+  color: var(--box-background);
+  margin-bottom: 1rem;
+}
+
+.app-footer .footer-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.app-footer .footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-footer .footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.app-footer .footer-link {
+  color: var(--footer-link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.app-footer .footer-link:hover,
+.app-footer .footer-link:focus {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.app-footer .footer-bottom-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding-top: 1.5rem;
+}
+
+.app-footer address {
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color:  var(--footer-link-color);
+  margin: 0;
+}
