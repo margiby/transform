@@ -1,0 +1,1077 @@
+[
+    {
+        "id": 595,
+        "name_german": "Industrie",
+        "name_english": "industry",
+        "tasks": [
+            {
+                "id": 1270,
+                "name_german": "Industrielle Wärmeversorgung bis zu max. 200°C",
+                "name_english": "Industrial heat supply up to max. 200°C",
+                "acronym_german": "IND <200_17G",
+                "acronym_english": "IND <200_17G",
+                "properties": [
+                    {
+                        "id": 3005,
+                        "value": 17500000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1271,
+                "name_german": "Industrielle Wärmeversorgung für Temperaturbedarfe von 200 °C bis maximal 500 °C für industrielle Prozesse meist auf Dampfbasis",
+                "name_english": "Industrial heat supply for temperature needs of 200 °C to a maximum of 500 °C for industrial processes usually on steam basis",
+                "acronym_german": "IND_200-500_17G",
+                "acronym_english": "IND_200-500_17G",
+                "properties": [
+                    {
+                        "id": 3006,
+                        "value": 17500000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1272,
+                "name_german": "Industrieller Wärmebedarf (feste Brennstoffe oder Strom) mit einem Temperaturniveau höher als 500 °C bis über 1500°C ohne Reduktionsmittelanforderung ",
+                "name_english": "Industrial heat demand (solid fuels or electricity) with a temperature level higher than 500 °C up to more than 1500°C without reduction agent requirement ",
+                "acronym_german": "IND_Solid>500_17G",
+                "acronym_english": "IND_Solid>500_17G",
+                "properties": [
+                    {
+                        "id": 3007,
+                        "value": 17500000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1273,
+                "name_german": "Gasförmiger Industrieller Wärmebedarf mit einem Temperaturneiveau höher als 500 °C",
+                "name_english": "Gaseous industrial heat demand with a temperature level higher than 500 °C",
+                "acronym_german": "IND_Gas>500_17G",
+                "acronym_english": "IND_Gas>500_17G",
+                "properties": [
+                    {
+                        "id": 3008,
+                        "value": 17500000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 596,
+        "name_german": "Verkehr",
+        "name_english": "mobility",
+        "tasks": null
+    },
+    {
+        "id": 597,
+        "name_german": "Haushalte",
+        "name_english": "households",
+        "tasks": [
+            {
+                "id": 1255,
+                "name_german": "Einfamilienhäuser mit bester verfügbarer Dämmung (Alt- und Neubauten): Erd- oder Wandheizung oder direkte Luftheizung (niedrige Heiztemperatur); Warmwasserenergiebedarf hoch im Verhältnis zum Raumwärmebedarf",
+                "name_english": "Single family houses with best available insulation (old and new buildings): ground or wall heating system or direct air heating (low heating temperature); hot water energy demand high in relation to room heat demand",
+                "acronym_german": "En30_6M0",
+                "acronym_english": "En30_6M0",
+                "properties": [
+                    {
+                        "id": 2964,
+                        "value": 2.5,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2963,
+                        "value": 2800,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2962,
+                        "value": 6954,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1256,
+                "name_german": "Ein- und Zweifamilienhäuser aller Altersgruppen (Altbau) und alte Mehrfamilienhäuser mit Passivhausstandard; mittlerer Energiebedarf; i.d.R. keine Fußboden- oder Wandheizung, d.h. mindestens 45 °C Vorlauftemperatur; Neubauten mit Fußbodenheizung und 30-70°C Puffer; ca. 22% Warmwasseranteil am Wärmebedarf  ",
+                "name_english": "One- and two-family houses of all age groups (old building) and old apartment buildings with passive house standard; average energy requirement; generally no underfloor or wall heating, i.e. at least 45 °C in flow temperature; new buildings with underfloor heating and 30-70°C buffer; around 22% hot water share of heat requirement  ",
+                "acronym_german": "En45_10M",
+                "acronym_english": "En45_10M",
+                "properties": [
+                    {
+                        "id": 2967,
+                        "value": 5,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2966,
+                        "value": 2100,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2965,
+                        "value": 10400,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1257,
+                "name_german": "Ein- und Zweifamilienhäuser aller Altersgruppen (Neu- und Altbau) mit einem Energiebedarf von 60 bis 120 kWh/m²; mittlerer Energiebedarf; Fußboden- oder Radiatorenheizung, d.h. Vorlauf mindestens 45 °C; überwiegend Neubauten mit Fußbodenheizung und 30-70°C-Puffer; ca. 14-26% Warmwasseranteil am Wärmebedarf  ",
+                "name_english": "One- and two-family houses of all age groups (new and old buildings) with an energy requirement of 60 to 120 kWh/m²; average energy requirement; underfloor or radiator heating, i.e. pre-flow at least 45 °C; mostly new constructions with underfloor heating and 30-70°C buffer; approx. 14-26% hot water share of heat requirement  ",
+                "acronym_german": "Enm90_14M",
+                "acronym_english": "Enm90_14M",
+                "properties": [
+                    {
+                        "id": 2970,
+                        "value": 7.5,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2969,
+                        "value": 1870,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2968,
+                        "value": 14000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1258,
+                "name_german": "Verschiedene Ein- und Zweifamilienhäuser mit einem Heizleistungsbedarf von 10,5 kW: eher mittlere und ältere Jahrgänge mit einem Energiebedarf von 120 bis 180 kWh/m² (eher unsaniert oder teilsaniert); alle Heizungsanlagen im Haus, d. h. Vorlauf mindestens 60 °C; Puffer; je nach Gebäudetyp ca. 10-40 % Warmwasseranteil am Wärmebedarf; 1700 - 2400 Volllaststunden pro Jahr   ",
+                "name_english": "Various one- and two-family houses  with a heating power requirement of 10.5 kW: rather medium and older age groups with an energy requirement of 120 to 180 kWh/m² (rather unrenovated or partly renovated); all heating systems in the house, i.e. pre-flow at least 60 °C; buffer; around 10-40% hot water share of heat requirement depending on building type; 1700 - 2400 full load hours a year   ",
+                "acronym_german": "Em150_21M",
+                "acronym_english": "Em150_21M",
+                "properties": [
+                    {
+                        "id": 2973,
+                        "value": 10.5,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2972,
+                        "value": 2000,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2971,
+                        "value": 21000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1259,
+                "name_german": "Diverse Wohngebäude mit einem Heizleistungsbedarf von 14,9 kW: überwiegend Altbau; Ein- und Zweifamilienhäuser hohen und mittleren Alters unsaniert mit einem spezifischen Energiebedarf von mehr als 180 kWh/m², sowie Mehrfamilienhäuser mit mittlerem Energiebedarf und große Mehrfamilienhäuser mit sehr geringem spezifischem Heizbedarf; Vorlauf in der Regel mindestens 75 °C; Puffer; ca. 8-18% Warmwasseranteil am Heizbedarf; 1600-1850 Volllaststunden pro Jahr  ",
+                "name_english": "Various residential buildings with a heating capacity requirement of 14.9 kW: mainly old buildings; one- and two-family houses of high and medium age unrenovated with a specific energy requirement of more than 180 kWh/m², as well as multi-family houses with medium energy requirements and large multi-family houses with a very low specific heating requirement; pre-flow usually at least 75 °C; buffer; approx. 8-18% hot water share of heating requirement; 1600-1850 full load hours per year  ",
+                "acronym_german": "Ea180_24M",
+                "acronym_english": "Ea180_24M",
+                "properties": [
+                    {
+                        "id": 2976,
+                        "value": 14.9,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2975,
+                        "value": 1640,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2974,
+                        "value": 24500,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1260,
+                "name_german": "Mittelgroße Mehrfamilienhäuser mittleren Alters mit mittlerem spezifischem Wärmebedarf, daneben eine Vielzahl anderer Wohngebäude mit ähnlichen Eigenschaften. Vorlauftemperatur der Heizungsanlage tendenziell mindestens 75°C, Warmwasseranteil im Bereich von 10 bis 25%; 1850 bis 1900 Volllaststunden",
+                "name_english": "Medium-sized, middle-aged multi-family houses with medium specific heat demand, in addition to a variety of other residential buildings with similar characteristics. Heating systems pre-flow temperature tends to be at least 75°C, proportion of domestic hot water in the range of 10 to 25%; 1850 to 1900 full load hours",
+                "acronym_german": "Mm90_38M",
+                "acronym_english": "Mm90_38M",
+                "properties": [
+                    {
+                        "id": 2979,
+                        "value": 20,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2978,
+                        "value": 1900,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2977,
+                        "value": 38000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1261,
+                "name_german": "Große Mehrfamilienhäuser mittleren und höheren Alters mit mittlerem bis hohem spezifischem Wärmebedarf, Heizungsvorlauf tendenziell mindestens 75 bis 85°C, Warmwasseranteil ca. 18 %.",
+                "name_english": "Large middle-aged and old multi-family houses with medium to high specific heat requirements, heating systems pre-flow tending to be at least 75 to 85°C, proportion of domestic hot water approx. 18 %.",
+                "acronym_german": "Gm90_165M",
+                "acronym_english": "Gm90_165M",
+                "properties": [
+                    {
+                        "id": 2982,
+                        "value": 80,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2981,
+                        "value": 2060,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2980,
+                        "value": 165000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1262,
+                "name_german": "Gut sanierte große mittelgroße Mehrfamilienhäuser; ein durchschnittlicher Energiebedarf von 92 MWh; in der Regel reduzierte Vorlauftemperatur von maximal 70 °C für Heizung; 18 - 29 % Warmwasserbereitung",
+                "name_english": "Well-renovated large medium-sized multi-family houses; an average energy requirement of 92 MWh; generally reduced pre-flow temperature of maximum 70 °C for heating; 18 - 29% domestic hot water",
+                "acronym_german": "Gm45_92M",
+                "acronym_english": "Gm45_92M",
+                "properties": [
+                    {
+                        "id": 2985,
+                        "value": 43,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2984,
+                        "value": 2150,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2983,
+                        "value": 92000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 598,
+        "name_german": "GHD",
+        "name_english": "TCS",
+        "tasks": [
+            {
+                "id": 1263,
+                "name_german": "Ältere gemischte Wohngebäude und diverse Nichtwohngebäude (überwiegend Halbtagsnutzung) mit einem Wärmeleistungsbedarf von ca. 25 kW und einem Vollnutzungsgrad von ca. 1900 h/a; Heizungsanlagen mit Vorlauf im Bereich 75 - 85°C; Warmwasserbedarf 16-19 %.",
+                "name_english": "Older mixed residential buildings and various non-residential buildings (mainly half-day usage) with a thermal power requirement of around 25 kW and a full utilisation rate of around 1900 h/a; heating systems with pre-flow in the 75 - 85°C range; domestic hot water requirement 16-19%",
+                "acronym_german": "Wa150_47M",
+                "acronym_english": "Wa150_47M",
+                "properties": [
+                    {
+                        "id": 2988,
+                        "value": 25,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2987,
+                        "value": 1880,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2986,
+                        "value": 47000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1264,
+                "name_german": "Neue Nichtwohngebäude mit geringem spezifischen Energiebedarf bei ganztägiger Nutzung (ca. 3300 Volllaststunden pro Jahr) und hohem Warmwasseranteil 45-50% (70°C) ",
+                "name_english": "New non-residential buildings with low specific energy requirements for full-day use (approx. 3300 full load hours a year) and high domestic hot water proportion 45-50% (70°C) ",
+                "acronym_german": "BGKn90_100M",
+                "acronym_english": "BGKn90_100M",
+                "properties": [
+                    {
+                        "id": 2991,
+                        "value": 31,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2990,
+                        "value": 3230,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2989,
+                        "value": 100000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1265,
+                "name_german": "Ältere Nichtwohngebäude im Ganztagsbetrieb (ca. 3000 Volllastbetriebsstunden pro Jahr) und sehr hohem Warmwasseranteil von 43-50%, aber häufig mit eher geringem spezifischen Wärmebedarf; Wasservorlauf meist 75-85°C",
+                "name_english": "Older non-residential buildings in full-day use (approx. 3000 full load operation hours per year) and very high hot water proportion of 43-50%, but frequently with rather low specific heat requirement; water pre-flow usually 75-85°C",
+                "acronym_german": "BGKa90_145M",
+                "acronym_english": "BGKa90_145M",
+                "properties": [
+                    {
+                        "id": 2994,
+                        "value": 45,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2993,
+                        "value": 3200,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2992,
+                        "value": 145000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1266,
+                "name_german": "Halbtagsnutzung und gewerbliche Nutzung von Nicht-Wohngebäuden, die nach 1983 errichtet und wenig saniert wurden; durchschnittlicher Energiebedarf; verschiedene Heizsysteme (Heizkörper, Deckenradiatoren, Warmluftgebläse), d.h. Vorlauf mindestens 50 - 60 °C, teilweise deutlich höher; ca. 1600 Volllastbetriebsstunden pro Jahr; Warmwasserbedarf <20% ",
+                "name_english": "Half-day use and commercial use of non-residential buildings constructed after 1983 and little renovated; average energy requirement; various heating systems (radiators, ceiling radiators, hot-air blowers), i.e. pre-flow at least 50 - 60 °C, in some cases significantly higher; approx. 1600 full load operation hours per year; hot water requirement <20% ",
+                "acronym_german": "BGHn90_74M",
+                "acronym_english": "BGHn90_74M",
+                "properties": [
+                    {
+                        "id": 2997,
+                        "value": 45,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2996,
+                        "value": 1645,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2995,
+                        "value": 74000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1267,
+                "name_german": "Altes Nichtwohngebäude mit Halbtagsnutzung und hohem spezifischem Energiebedarf, sowie diverse alte Sondernutzungsformen (Nichtwohngebäude), Volllastbetriebsstunden pro Jahr unter 1900 und Warmwasseranteil unter 20%; Vorlauf 75-85°C  ",
+                "name_english": "Old non-residential building with half-day use and high specific energy requirement, as well as various old special forms of use (non-residential), full load operation hours per year below 1900 and hot water proportion below 20%; pre-flow 75-85°C  ",
+                "acronym_german": "BGHa180_56M",
+                "acronym_english": "BGHa180_56M",
+                "properties": [
+                    {
+                        "id": 3000,
+                        "value": 34,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2999,
+                        "value": 1650,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 2998,
+                        "value": 56000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1268,
+                "name_german": "Alte Nichtwohn-Sondergebäude mit hohem spezifischem Energiebedarf und geringen Volllastbetriebsstunden pro Jahr (<1700) und Warmwasseranteil unter 13%; Vorlauf 75 bis 85°C",
+                "name_english": "Old non-residential special buildings with high specific energy requirement and low full loap operation hours per year (<1700) and hot water share below 13%; pre-flow 75 to 85°C",
+                "acronym_german": "SKa180_100M",
+                "acronym_english": "SKa180_100M",
+                "properties": [
+                    {
+                        "id": 3003,
+                        "value": 60,
+                        "year": null,
+                        "unit": {
+                            "id": 41,
+                            "symbol": "kW"
+                        },
+                        "property": {
+                            "id": 7596,
+                            "name_english": "thermal peak load",
+                            "name_german": "Thermische Spitzenlast"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 3002,
+                        "value": 1670,
+                        "year": null,
+                        "unit": {
+                            "id": 19,
+                            "symbol": "h"
+                        },
+                        "property": {
+                            "id": 7595,
+                            "name_english": "annual full load hours",
+                            "name_german": "Jahresvolllaststunden"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    },
+                    {
+                        "id": 3001,
+                        "value": 100000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 599,
+        "name_german": "Energiewirtschaft",
+        "name_english": "energy economy",
+        "tasks": null
+    },
+    {
+        "id": 600,
+        "name_german": "Landwirtschaft",
+        "name_english": "agriculture",
+        "tasks": null
+    },
+    {
+        "id": 601,
+        "name_german": "Abfallwirtschaft",
+        "name_english": "waste management",
+        "tasks": null
+    },
+    {
+        "id": 602,
+        "name_german": "Fernwärme",
+        "name_english": "district heating",
+        "tasks": [
+            {
+                "id": 1269,
+                "name_german": "Fernwärmeversorgung aus Biomasse (sehr vereinfacht - großflächig ohne Änderung der Netzstrukturen); dieser Teilbereich der Wärmeversorgung ist nur ein \"Platzhalter\" für intensivere Forschung in diesem Bereich",
+                "name_english": "District heating supply from biomass (very simplified - large-scale without changing the network structures); this subsector of heat supply is just a \"place holder\" for more intensive research in this field",
+                "acronym_german": "DHN_18G",
+                "acronym_english": "DHN_18G",
+                "properties": [
+                    {
+                        "id": 3004,
+                        "value": 18000000,
+                        "year": null,
+                        "unit": {
+                            "id": 64,
+                            "symbol": "kWh/a"
+                        },
+                        "property": {
+                            "id": 7594,
+                            "name_english": "annual heat demand",
+                            "name_german": "Jahreswärmebedarf"
+                        },
+                        "reference": {
+                            "id": 112,
+                            "source": "Lenz et al. (2019): Technical and economic data of renewable heat supply systems for different heat sub-sectors."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 603,
+        "name_german": "undefiniert",
+        "name_english": "undefined",
+        "tasks": null
+    }
+]
